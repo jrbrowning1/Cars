@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jonathan.cars.VroomVroom">
+
+    <RelativeLayout
+        android:layout_width="368dp"
+        android:layout_height="100dp"
+        tools:layout_editor_absoluteY="10dp"
+        tools:layout_editor_absoluteX="10dp"
+        android:background="#BA68C8">
+
+        <ImageView
+            android:id="@+id/audi_photo"
+            android:src="@drawable/audir8"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+
+            tools:layout_editor_absoluteY="10dp"
+            android:scaleType="centerCrop"
+            tools:layout_editor_absoluteX="0dp" />
+        <TextView
+            android:id="@+id/audi_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/audi_photo"
+            android:text=" 2017 Audi R8"
+            android:textAppearance="?android:textAppearanceMedium"
+            tools:layout_editor_absoluteY="0dp"
+            tools:layout_editor_absoluteX="0dp" />
+        <TextView
+            android:id="@+id/audi_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/audi_name"
+            android:layout_toRightOf="@id/audi_photo"
+            android:text=" Price: $165,000"
+            android:textAppearance="?android:textAppearanceMedium"
+            tools:layout_editor_absoluteY="0dp"
+            tools:layout_editor_absoluteX="0dp" />
+        <TextView
+            android:id="@+id/audi_power"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/audi_price"
+            android:layout_toRightOf="@id/audi_photo"
+            android:text=" 540 hp @ 7800 rpm"
+            android:textAppearance="?android:textAppearanceMedium"
+            tools:layout_editor_absoluteY="0dp"
+            tools:layout_editor_absoluteX="0dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+            android:layout_width="368dp"
+            android:layout_height="100dp"
+            tools:layout_editor_absoluteY="120dp"
+            tools:layout_editor_absoluteX="10dp"
+            android:background="#F06292">
+        <ImageView
+            android:id="@+id/ferrari_photo"
+            android:src="@drawable/ferrari488"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:scaleType="centerCrop" />
+        <TextView
+            android:id="@+id/ferrari_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/ferrari_photo"
+            android:text=" 2017 Ferrari 488 GTB"
+            android:textAppearance="?android:textAppearanceMedium"/>
+        <TextView
+            android:id="@+id/ferrari_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ferrari_name"
+            android:layout_toRightOf="@id/ferrari_photo"
+            android:text=" Price: $250,000"
+            android:textAppearance="?android:textAppearanceMedium"/>
+        <TextView
+            android:id="@+id/ferrari_power"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ferrari_price"
+            android:layout_toRightOf="@id/ferrari_photo"
+            android:text=" 661 hp @ 8000 rpm"
+            android:textAppearance="?android:textAppearanceMedium"
+            tools:layout_editor_absoluteY="0dp"
+            tools:layout_editor_absoluteX="0dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="368dp"
+            android:layout_height="100dp"
+            tools:layout_editor_absoluteY="230dp"
+            tools:layout_editor_absoluteX="10dp"
+            android:background="#64B5F6">
+        <ImageView
+            android:id="@+id/maserati_photo"
+            android:src="@drawable/MasGran"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:scaleType="centerCrop" />
+        <TextView
+            android:id="@+id/maserati_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/maserati_photo"
+            android:text=" 2017 GranTurismo Sport"
+            android:textAppearance="?android:textAppearanceMedium"/>
+        <TextView
+            android:id="@+id/maserati_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/maserati_name"
+            android:layout_toRightOf="@id/maserati_photo"
+            android:text=" Price: $133,000"
+            android:textAppearance="?android:textAppearanceMedium"/>
+        <TextView
+            android:id="@+id/maserati_power"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/maserati_price"
+            android:layout_toRightOf="@id/maserati_photo"
+            android:text=" 454 hp @ 7000 rpm"
+            android:textAppearance="?android:textAppearanceMedium"
+            tools:layout_editor_absoluteY="0dp"
+            tools:layout_editor_absoluteX="0dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="368dp"
+            android:layout_height="100dp"
+            tools:layout_editor_absoluteY="340dp"
+            tools:layout_editor_absoluteX="10dp"
+            android:background="#4DD0E1">
+        <ImageView
+            android:id="@+id/mercedes_photo"
+            android:src="@drawable/mercedesAmg_2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:scaleType="centerCrop" />
+        <TextView
+            android:id="@+id/mercedes_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/mercedes_photo"
+            android:text=" 2018 Mercedes-AMG GT S"
+            android:textAppearance="?android:textAppearanceMedium"/>
+        <TextView
+            android:id="@+id/mercedes_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/mercedes_name"
+            android:layout_toRightOf="@id/mercedes_photo"
+            android:text=" Price: $133,000"
+            android:textAppearance="?android:textAppearanceMedium"/>
+        <TextView
+            android:id="@+id/mercedes_power"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/mercedes_price"
+            android:layout_toRightOf="@id/mercedes_photo"
+            android:text=" 515 hp @ 6250 rpm"
+            android:textAppearance="?android:textAppearanceMedium"
+            tools:layout_editor_absoluteY="0dp"
+            tools:layout_editor_absoluteX="0dp" />
+
+        </RelativeLayout>
+
+
+
+
+</android.support.constraint.ConstraintLayout>
